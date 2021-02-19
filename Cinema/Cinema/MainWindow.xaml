@@ -7,6 +7,77 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Image Margin="10,10,723.6,359.2" Source="sedile.png" Stretch="Fill"/>
+        <Image Margin="75,10,658.6,359.2" Source="sedile.png" Stretch="Fill" Grid.ColumnSpan="1"/>
+        <Image Margin="10,61,723.6,308.2" Source="sedile.png" Stretch="Fill"/>
+        <Image Margin="75,61,658.6,308.2" Source="sedile.png" Stretch="Fill" Grid.ColumnSpan="1"/>
+        <Image Margin="139,10,594.6,359.2" Source="sedile.png" Stretch="Fill" Grid.Column="0"/>
+        <Image Margin="204,10,529.6,359.2" Source="sedile.png" Stretch="Fill" Grid.Column="0"/>
+        <Image Margin="139,61,594.6,308.2" Source="sedile.png" Stretch="Fill" Grid.Column="0"/>
+        <Image Margin="204,61,529.6,308.2" Source="sedile.png" Stretch="Fill" Grid.Column="0"/>
+        <Image Margin="10,112,723.6,257.2" Source="sedile.png" Stretch="Fill"/>
+        <Image Margin="75,112,658.6,257.2" Source="sedile.png" Stretch="Fill" Grid.ColumnSpan="1"/>
+        <Image Margin="10,163,723.6,206.2" Source="sedile.png" Stretch="Fill"/>
+        <Image Margin="75,163,658.6,206.2" Source="sedile.png" Stretch="Fill" Grid.ColumnSpan="1"/>
+        <Image Margin="139,112,594.6,257.2" Source="sedile.png" Stretch="Fill" Grid.Column="0"/>
+        <Image Margin="204,112,529.6,257.2" Source="sedile.png" Stretch="Fill" Grid.Column="0"/>
+        <Image Margin="139,163,594.6,206.2" Source="sedile.png" Stretch="Fill" Grid.Column="0"/>
+        <Image Margin="204,163,529.6,206.2" Source="sedile.png" Stretch="Fill" Grid.Column="0"/>
+        <Image Margin="10,216,723.6,153" Source="sedile.png" Stretch="Fill" Grid.RowSpan="1"/>
+        <Image Margin="75,216,658.6,153" Source="sedile.png" Stretch="Fill" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <Image Margin="10,266.8,723.6,102" Source="sedile.png" Stretch="Fill" Grid.Row="0"/>
+        <Image Margin="75,266.8,658.6,102" Source="sedile.png" Stretch="Fill" Grid.ColumnSpan="1" Grid.Row="0"/>
+        <Image Margin="139,216,594.6,153" Source="sedile.png" Stretch="Fill" Grid.Column="0" Grid.RowSpan="1"/>
+        <Image Margin="204,216,529.6,153" Source="sedile.png" Stretch="Fill" Grid.Column="0" Grid.RowSpan="1"/>
+        <Image Margin="139,266.8,594.6,102" Source="sedile.png" Stretch="Fill" Grid.Column="0" Grid.Row="0"/>
+        <Image Margin="204,266.8,529.6,102" Source="sedile.png" Stretch="Fill" Grid.Column="0" Grid.Row="0"/>
+        <Image Margin="10,317.8,723.6,51" Source="sedile.png" Stretch="Fill" Grid.Row="0"/>
+        <Image Margin="75,317.8,658.6,51" Source="sedile.png" Stretch="Fill" Grid.ColumnSpan="1" Grid.Row="0"/>
+        <Image Margin="10,368.8,723.6,0" Source="sedile.png" Stretch="Fill" Grid.Row="0"/>
+        <Image Margin="75,368.8,658.6,0" Source="sedile.png" Stretch="Fill" Grid.ColumnSpan="1" Grid.Row="0"/>
+        <Image Margin="139,317.8,594.6,51" Source="sedile.png" Stretch="Fill" Grid.Column="0" Grid.Row="0"/>
+        <Image Margin="204,317.8,529.6,51" Source="sedile.png" Stretch="Fill" Grid.Column="0" Grid.Row="0"/>
+        <Image Margin="139,368.8,594.6,0" Source="sedile.png" Stretch="Fill" Grid.Column="0" Grid.Row="0"/>
+        <Image Margin="204,368.8,529.6,0" Source="sedile.png" Stretch="Fill" Grid.Column="0" Grid.Row="0"/>
+        <Button x:Name="btnPrenota" Content="Prenota" HorizontalAlignment="Left" Height="41" Margin="312,71,0,0" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="txtCassa1" HorizontalAlignment="Left" Height="28" Margin="312,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="txtCassa2" HorizontalAlignment="Left" Height="28" Margin="393,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"/>
+        <Label x:Name="Cassa1" Content="Cassa1" HorizontalAlignment="Left" Height="23" Margin="312,10,0,0" VerticalAlignment="Top" Width="76"/>
+        <Label x:Name="Cassa2" Content="Cassa2" HorizontalAlignment="Left" Height="23" Margin="393,10,0,0" VerticalAlignment="Top" Width="76"/>
+        <Label Content="1" HorizontalAlignment="Left" Height="24" Margin="29,9,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="2" HorizontalAlignment="Left" Height="24" Margin="96,9,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="1" HorizontalAlignment="Left" Height="24" Margin="393,117,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="3" HorizontalAlignment="Left" Height="24" Margin="160,10,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="4" HorizontalAlignment="Left" Height="24" Margin="227,10,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="5" HorizontalAlignment="Left" Height="24" Margin="29,65,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="6" HorizontalAlignment="Left" Height="24" Margin="96,65,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="7" HorizontalAlignment="Left" Height="24" Margin="160,66,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="8" HorizontalAlignment="Left" Height="24" Margin="227,66,0,0" VerticalAlignment="Top" Width="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="10" HorizontalAlignment="Left" Height="24" Margin="94,112,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="11" HorizontalAlignment="Left" Height="24" Margin="161,112,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="12" HorizontalAlignment="Left" Height="24" Margin="216,112,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="13" HorizontalAlignment="Left" Height="24" Margin="29,163,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="14" HorizontalAlignment="Left" Height="24" Margin="94,163,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="15" HorizontalAlignment="Left" Height="24" Margin="161,163,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="16" HorizontalAlignment="Left" Height="24" Margin="216,163,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="17" HorizontalAlignment="Left" Height="24" Margin="29,214,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="18" HorizontalAlignment="Left" Height="24" Margin="94,216,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="19" HorizontalAlignment="Left" Height="24" Margin="161,216,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="20" HorizontalAlignment="Left" Height="24" Margin="216,216,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="21" HorizontalAlignment="Left" Height="24" Margin="29,266.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="22" HorizontalAlignment="Left" Height="24" Margin="94,266.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="23" HorizontalAlignment="Left" Height="24" Margin="161,266.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="24" HorizontalAlignment="Left" Height="24" Margin="216,266.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="25" HorizontalAlignment="Left" Height="24" Margin="29,317.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="26" HorizontalAlignment="Left" Height="24" Margin="94,317.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="27" HorizontalAlignment="Left" Height="24" Margin="161,317.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="28" HorizontalAlignment="Left" Height="24" Margin="216,317.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="29" HorizontalAlignment="Left" Height="24" Margin="29,368.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="30" HorizontalAlignment="Left" Height="24" Margin="94,368.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="31" HorizontalAlignment="Left" Height="24" Margin="161,368.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="32" HorizontalAlignment="Left" Height="24" Margin="216,368.8,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Label Content="9" HorizontalAlignment="Left" Height="24" Margin="25,112,0,0" VerticalAlignment="Top" Width="27" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="White"/>
+        <Button x:Name="btnSvuotaCinema" Content="Svuota Cinema" HorizontalAlignment="Left" Height="27" Margin="312,374,0,0" VerticalAlignment="Top" Width="157" Click="btnSvuotaCinema_Click"/>
+
     </Grid>
 </Window>

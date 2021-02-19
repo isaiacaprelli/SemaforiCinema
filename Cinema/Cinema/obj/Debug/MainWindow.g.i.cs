@@ -40,6 +40,54 @@ namespace Cinema {
     /// </summary>
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 42 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnPrenota;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 43 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox txtCassa1;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 44 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox txtCassa2;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 45 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label Cassa1;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 46 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label Cassa2;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 80 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnSvuotaCinema;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +116,33 @@ namespace Cinema {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.btnPrenota = ((System.Windows.Controls.Button)(target));
+            return;
+            case 2:
+            this.txtCassa1 = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 3:
+            this.txtCassa2 = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 4:
+            this.Cassa1 = ((System.Windows.Controls.Label)(target));
+            return;
+            case 5:
+            this.Cassa2 = ((System.Windows.Controls.Label)(target));
+            return;
+            case 6:
+            this.btnSvuotaCinema = ((System.Windows.Controls.Button)(target));
+            
+            #line 80 "..\..\MainWindow.xaml"
+            this.btnSvuotaCinema.Click += new System.Windows.RoutedEventHandler(this.btnSvuotaCinema_Click);
+            
+            #line default
+            #line hidden
+            return;
+            }
             this._contentLoaded = true;
         }
     }
