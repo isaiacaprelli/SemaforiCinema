@@ -1,0 +1,15 @@
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\bin\Debug\Cinema.exe.config
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\bin\Debug\Cinema.exe
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\bin\Debug\Cinema.pdb
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema.csprojAssemblyReference.cache
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\MainWindow.g.cs
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\App.g.cs
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema_MarkupCompile.cache
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema_MarkupCompile.lref
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\MainWindow.baml
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema.g.resources
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema.Properties.Resources.resources
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema.csproj.GenerateResource.cache
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema.exe
+C:\Users\utente\Desktop\isa\tps\SemaforiCinemaGitHub\Cinema\Cinema\obj\Debug\Cinema.pdb
